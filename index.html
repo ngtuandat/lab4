@@ -1,13 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <!-- <div id="app"></div> -->
+  <div class="max-w-6xl mx-auto">
+    <div class="mx-auto max-w-6xl">
+      <div class="md:flex justify-between items-center my-3">
+        <div>
+          <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953767/Logo_tp4ojv.png" alt="">
+        </div>
+        <ul class="md:flex">
+          <li><a class="px-3" href="">Home</a></li>
+          <li><a class="px-3" href="">Products</a></li>
+          <li><a class="px-3" href="">About Us</a></li>
+          <li><a class="px-3" href="">Contact Us</a></li>
+        </ul>
+        <div class=" space-x-0 md:space-x-4 ">
+          <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953697/Cart_bissbn.png" alt=""
+            class="block md:inline-block">
+          <button class="border border-red-500 p-2 text-red-600  rounded">Sign in</button>
+          <button class="border border-red-500 p-2 bg-red-500 text-white rounded">Sign up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2  items-center gap-8">
+      <div class="text-center md:text-left">
+        <div class="inline-block bg-red-100 ">
+          <span class=" text-red-500 py-2 px-4">Quality Food</span>
+        </div>
+        <h2 class=" text-5xl md:text-7xl py-7 font-bold">Fastest<br> <span class="text-red-600">Delivery</span>
+          & Easy
+          <span class="text-red-600">Pickup</span>
+        </h2>
+        <p class="text-gray-400 py-4">Best cooks and best delivery guys all at your service. Hot tasty food will
+          reach you in 60 minutes.</p>
+        <form action="" class="w-96 border my-5 border-red-600 flex rounded ">
+          <input class="w-full py-6 px-3 outline-none border-none rounded-l" type="text"
+            placeholder="Enter your delivery location">
+          <button class="bg-red-600 text-white px-5 rounded-r border-none">Discover</button>
+        </form>
+      </div>
+      <div>
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953605/Images_s1ky8z.png" alt=""
+          class="w-full">
+      </div>
+    </div>
+  </div>
+  <div class="max-w-2xl mx-auto">
+    <div class="title text-center mb-12">
+      <h2 class="font-bold text-4xl py-5">Our Popular Dishes</h2>
+      <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqut enim ad minim </p>
+    </div>
+  </div>
+  <div class="max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="menu">
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953793/Mask_Group_cynhj4.png" alt=""
+          class="w-full">
+        <p class="text-red-600 py-4">Big and Juicy Wagyu Beef Cheeseburger</p>
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953873/Timer_dziwqm.png" alt=""
+          class="inline-block">
+        <span class="inline-block">30 Minutes</span>
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953707/ForkKnife_d0gdbd.png" alt=""
+          class="inline-block ml-3">
+        <span class="inline-block">Snack</span>
+      </div>
+      <div class="menu">
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953807/Mask_Group2_2_ar6x4a.png" alt=""
+          class="w-full">
+        <p class="text-red-600 py-4">Fresh Lime Roasted Salmon</p>
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953873/Timer_dziwqm.png" alt=""
+          class="inline-block">
+        <span class="inline-block">30 Minutes</span>
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953707/ForkKnife_d0gdbd.png" alt=""
+          class="inline-block ml-3">
+        <span class="inline-block">Snack</span>
+      </div>
+      <div class="menu">
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953836/Mask_Group3_2_c47ev9.png" alt=""
+          class="w-full">
+        <p class="text-red-600 py-4">The Best Easy One Pot Chicken and Rice</p>
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953873/Timer_dziwqm.png" alt=""
+          class="inline-block">
+        <span class="inline-block">30 Minutes</span>
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953707/ForkKnife_d0gdbd.png" alt=""
+          class="inline-block ml-3">
+        <span class="inline-block">Snack</span>
+      </div>
+      <div class="menu">
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953775/Mask_Group.1png_rzmliz.png" alt=""
+          class="w-full">
+        <p class="text-red-600 py-4">Fresh and Healthy Mixed Mayonnaise </p>
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953873/Timer_dziwqm.png" alt=""
+          class="inline-block">
+        <span class="inline-block">30 Minutes</span>
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953707/ForkKnife_d0gdbd.png" alt=""
+          class="inline-block ml-3">
+        <span class="inline-block">Snack</span>
+      </div>
+      <div class="menu">
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953822/Mask_Group2_aafku9.png" alt=""
+          class="w-full">
+        <p class="text-red-600 py-4">The Creamiest Creamy Chicken </p>
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953873/Timer_dziwqm.png" alt=""
+          class="inline-block">
+        <span class="inline-block">30 Minutes</span>
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953707/ForkKnife_d0gdbd.png" alt=""
+          class="inline-block ml-3">
+        <span class="inline-block">Snack</span>
+      </div>
+      <div class="menu">
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953850/Mask_Group3_jzz3rw.png" alt=""
+          class="w-full">
+        <p class="text-red-600 py-4">Big and Juicy Wagyu Beef Cheeseburger</p>
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953873/Timer_dziwqm.png" alt=""
+          class="inline-block">
+        <span class="inline-block">30 Minutes</span>
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953707/ForkKnife_d0gdbd.png" alt=""
+          class="inline-block ml-3">
+        <span class="inline-block">Snack</span>
+      </div>
+    </div>
+  </div>
+  <div class="max-w-6xl mx-auto items-center block md:flex justify-between my-12">
+    <div>
+      <h3 class="text-5xl font-bold">Categories</h3>
+    </div>
+    <button class=" border border-red-600 rounded text-red-600 py-2 px-4">View All Categories</button>
+  </div>
+  <div class="max-w-6xl mx-auto ">
+    <div class="grid grid-cols-2 md:grid-cols-6">
+      <div class="food">
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953727/Group_890_o6nhal.png" alt="">
+        <span>Breakfast</span>
+      </div>
+      <div class="food">
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953720/Group_879_n4kp1p.png" alt="">
+        <span>Vegan</span>
+      </div>
+      <div class="food">
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953735/Group_891_brdw8b.png" alt="">
+        <span>Meat</span>
+      </div>
+      <div class="food">
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953743/Group_892_kle7q3.png" alt="">
+        <span>Dessert</span>
+      </div>
+      <div class="food">
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953748/Group_893_gjlfzm.png" alt="">
+        <span>Lunch</span>
+      </div>
+      <div class="food">
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953754/Group_894_e06gy1.png" alt="">
+        <span>Chocolate</span>
+      </div>
+    </div>
+  </div>
+  <form class="max-w-6xl mx-auto ">
+    <h2 class="font-bold text-5xl py-14 text-center">Contact us</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+        <div>
+          <p class="text-gray-400 py-2">NAME</p>
+        </div>
+        <input class="border py-1 px-4 w-full" type="text" placeholder="Enter your name...">
+      </div>
+      <div>
+        <div>
+          <p class="text-gray-400 py-2">EMAIL ADDRESS</p>
+        </div>
+        <input class="border py-1 px-4 w-full" type="email" placeholder="Your email address...">
+      </div>
+      <div>
+        <div>
+          <p class="text-gray-400 py-2">SUBJECT</p>
+        </div>
+        <input class="border py-1 px-4 w-full" type="text" placeholder="Enter subject...">
+      </div>
+      <div>
+        <div>
+          <p class="text-gray-400 py-2">ENQUIRY TYPE</p>
+        </div>
+        <select name="" id="" class="border py-2 px-4 w-full text-gray-400">
+          <option value="">Advertising</option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <p class="text-gray-400 py-2">MESSENGER</p>
+    </div>
+    <textarea name="" id="" cols="30" rows="7" class="border w-full py-2 px-4"
+      placeholder="Enter your messages..."></textarea>
+    <div class="text-center py-4 mb-8">
+      <button class="bg-black text-white p-1 px-4 rounded">Submit</button>
+    </div>
+  </form>
+  <div class="max-w-6xl mx-auto">
+    <hr class="mt-16">
+  </div>
+  <div class="max-w-6xl mx-auto my-12">
+    <div class="md:flex justify-between items-center">
+      <div>
+        <img src="https://res.cloudinary.com/ngtuandatt/image/upload/v1654953767/Logo_tp4ojv.png" alt="">
+      </div>
+      <ul class="flex">
+        <li><a class="pr-3" href="">Home</a></li>
+        <li><a class="pr-3" href="">Products</a></li>
+        <li><a class="pr-3" href="">About Us</a></li>
+        <li><a class="pr-3" href="">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
